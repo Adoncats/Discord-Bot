@@ -34,13 +34,13 @@ async def rid(ctx, amount=10):
 
 **Replying to the users message**
 @bot.command()
-async def [COMMAND NAME](ctx):
-    await ctx.reply("[INSERT TEXT HERE]")
+async def [`COMMAND NAME`](ctx):
+    await ctx.reply("[`INSERT TEXT HERE`]")
     
 **Just sending a message**
 @bot.command()
-async def [COMMAND NAME](ctx):
-    await ctx.send("[INSERT TEXT HERE]")
+async def [`COMMAND NAME`](ctx):
+    await ctx.send("[`INSERT TEXT HERE`]")
     
 ###### Entering the bots token (after setting it up(if you want to know how to use [this tutorial from 00:00 to 00:32](https://www.youtube.com/watch?v=Gqurhm2QxA0)))
 bot.run('[INSERT TOKEN HERE]')
