@@ -26,7 +26,7 @@ async def on_ready():
 
 ###### Purge Command
 @bot.command()
-@commands.has_any_role("Owner", "Co-Owner", "Admin", "Mod", "Super Secret Role SSSSSH")
+@commands.has_any_role("[WHATEVER ROLES YOU WANT TO INSERT (e.g "owner, admin"]")
 async def rid(ctx, amount=10):
     await ctx.channel.purge(limit=amount)
     
